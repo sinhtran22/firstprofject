@@ -25,3 +25,5 @@ def asterisk():
 
 asterisk() 
 asterisk() 
+
+print('lan cuoi')
