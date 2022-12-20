@@ -5,6 +5,17 @@ def add():
     b = 4
     c = a + b 
     print(c)
-print("them nhanh")
+
+def minus(): 
+    a = 5
+    b = 4
+    c = a - b 
+    print(c)
 
 add()
+minus()
+
+if add() > minus():
+   print("add is da bezt")
+else:
+   print("minus is da bezt")
