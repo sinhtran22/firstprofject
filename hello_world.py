@@ -11,15 +11,17 @@ def minus():
 
 
 if (add() > minus()):
-    print('sinh dep trai') 
-else: 
+    print('sinh dep trai')
+else:
     print('sinh van dep trai')
+
 
 def asterisk():
     a = 5
     b = 4
-    c = a * b 
+    c = a * b
     print(c)
-asterisk()
 
 
+asterisk() 
+asterisk() 
