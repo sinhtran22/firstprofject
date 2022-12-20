@@ -1,21 +1,25 @@
-print('Hello')
-
-def add(): 
+def add():
     a = 3
     b = 4
-    c = a + b 
-    print(c)
+    return a + b
 
-def minus(): 
+
+def minus():
     a = 5
     b = 4
-    c = a - b 
+    return a - b
+
+
+if (add() > minus()):
+    print('sinh dep trai') 
+else: 
+    print('sinh van dep trai')
+
+def asterisk():
+    a = 5
+    b = 4
+    c = a * b 
     print(c)
+asterisk()
 
-add()
-minus()
 
-if add() > minus():
-   print("add is da bezt")
-else:
-   print("minus is da bezt")
