@@ -27,3 +27,7 @@ asterisk()
 asterisk() 
 
 print('lan cuoi')
+print('lan cuoi')
+
+print('lan cuoi khong')
+
